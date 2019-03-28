@@ -8,12 +8,12 @@ def my_collect(array)
       collection << array[i].split(" ").first
       i+=1
     end
-    array
+    collection
   else
     while i < array.length
       collection << array[i].upcase
       i+=1
     end
-    array
+    collection
   end
 end
